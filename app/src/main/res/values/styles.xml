@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme.
+     Defining this lets values-v21/styles.xml reuse it with changes. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- colorPrimary is used, for instance, for the default ActionBar
+             (but not Toolbar) background.
+              We specify the same color for the toolbar background in
+              toolbar.xml.. -->
+        <item name="android:colorPrimary">@color/primary</item>
+
+        <!-- colorPrimaryDark is used for the status bar (with the
+             battery, clock, etc). -->
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+
+        <!-- colorAccent is used as the default value for
+             colorControlActivated which is used to tint widgets. -->
+        <item name="android:colorAccent">@color/accent</item>
+
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColor">@color/text_secondary</item>
+
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+
+        <item name="android:windowActionBarOverlay">false</item>
+
+    </style>
+
+
+    <!-- Dialog -->
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_slide_up</item>
+        <item name="android:windowExitAnimation">@anim/dialog_slide_down</item>
+    </style>
+
+    <!-- Drink Detail Fab -->
+    <style name="DrinkDetailFAB">
+        <item name="android:layout_width">@dimen/fab_size_normal</item>
+        <item name="android:layout_height">@dimen/fab_size_normal</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:layout_below">@+id/drinkImage</item>
+        <item name="android:translationX">@dimen/detail_fab_horizontal_offset</item>
+        <item name="android:translationY">@dimen/detail_fab_vertical_offset</item>
+        <item name="android:background">@drawable/fab_shape</item>
+        <item name="android:elevation">@dimen/elevation_low</item>
+        <item name="android:src">@drawable/fab_ic_drink</item>
+        <item name="android:stateListAnimator">@anim/button_elevation</item>
+        <item name="android:theme">@style/AppTheme</item>
+    </style>
+
+</resources>

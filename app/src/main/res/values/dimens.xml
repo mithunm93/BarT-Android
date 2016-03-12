@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- FAB dimensions -->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="detail_fab_vertical_offset">-62dp</dimen>
+    <dimen name="main_fab_vertical_offset">700dp</dimen>
+    <dimen name="detail_fab_horizontal_offset">240dp</dimen>
+    <dimen name="detail_drink_name_vertical_offset">250dp</dimen>
+
+    <!-- detail card dimensions -->
+    <dimen name="detail_card_vertical_offset">-20dp</dimen>
+    <dimen name="detail_card_horizontal_margin">25dp</dimen>
+    <dimen name="detail_card_height">600dp</dimen>
+
+    <!-- Order Dialog dimensions -->
+    <dimen name="order_dialog_name_padding">24dp</dimen>
+
+    <!-- elevations -->
+    <dimen name="elevation_low">2dp</dimen>
+    <dimen name="elevation_high">4dp</dimen>
+    <dimen name="toolbar_elevation">5dp</dimen>
+
+</resources>
