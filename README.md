@@ -11,5 +11,7 @@ App Flow:
  3. Wait for BarT to pour your drink!
 
 Pictures: http://imgur.com/a/kO7On
+
 Paper: https://drive.google.com/file/d/0B_xuNIeTZd1UV0hfSTE4ZzNtc1U/view?usp=sharing
+
 Presentation: https://drive.google.com/file/d/0B_xuNIeTZd1UaWNMUWdtd2dBcnM/view?usp=sharing
