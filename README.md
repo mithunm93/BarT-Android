@@ -1,7 +1,7 @@
 # BarT-Android
 The Android code for BarT, the automated bartender
 
-The BarT is a system built by Mithun Manivannan, Andrew Doskochynskyy, and Matthey Koopman in the Spring of 2015 for our Senior Design at UIUC. It consists of a wooden frame containing the arduino+BLE shield, CO2 canister, bottles with liquid, actuators, the dispensing section, and the infinity mirror.
+The BarT is a system built by Mithun Manivannan, Andrew Doskochynskyy, and Matthew Koopman in the Spring of 2015 for our Senior Design at UIUC. It consists of a wooden frame containing the arduino+BLE shield, CO2 canister, bottles with liquid, actuators, the dispensing section, and the infinity mirror.
 
 This app allows an Android device running Lollipop+ to interface through BLE with the Arduino that controls the BarT. This app sends data about the drink that the user chose (this data is mirrored on the Arduino) and the user's name that they entered. The Arduino then proceeds to send signals to the actuators to open valves to the proper liquids to pour the drinks out.
 
